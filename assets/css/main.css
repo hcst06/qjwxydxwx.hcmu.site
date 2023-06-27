@@ -58,3 +58,21 @@ body {
     margin: auto;
     background: rgba(255,255,255,.3);
 }
+@media screen and (max-width: 767px) {
+  .mdui-col-xs-12.mdui-col-md-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .mdui-col-xs-12.mdui-col-md-2 .rin-left {
+    margin-bottom: 10px; /* 可调整图片与文本之间的间距 */
+  }
+
+  .mdui-col-xs-12.mdui-col-md-2 img {
+    display: block; /* 保证图片居中显示 */
+    margin: 0 auto; /* 居中图片 */
+  }
+}
